@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria el "Jefe"</title>
+    <link rel="stylesheet" href="pasteleria.css">
+
+</head>
+<body>
+<!--Menu head-->
+    <h1 class="head">Pasteleria el "Jefe"</h1>
+    <div class="menu">
+        <div class="item"><a href="pasteleria.html" class="link">Pasteles</a></div>
+        <div class="item"><a href="personalizar.html" class="link">Pasteles personalizados</a></div>
+        <div class="item"><a href="adornos.html" class="link">Adornos</a></div>
+    </div>
+
+    <hr>
+
+<!--Head2 y compra-->
+    <h2 class="sub">Nuestros pasteles</h2> 
+    
+    <br>
+
+<!--Pasteles-->
+    <div class="imgBody">
+       <div class="img">
+            <img src="./Imagenes/pastel_ sin_azucar.jpg" alt="Pastel sin azucar" height="200px" width=" 250px">
+            <label for="pastelSZ">Pastel sin azucar</label>
+            <label for="Precio">Precio $250</label>
+            <input type="checkbox">
+        </div>
+
+       <div class="img">
+            <img src="./Imagenes/pastel_chocolate.jpg" alt="Pastel chocolate" height="200px" width="250px">
+            <label for="pastelCho">Pastel de chocolate</label>
+            <label for="precio">Precio $250</label>
+            <input type="checkbox">
+        </div>
+
+       <div class="img">
+            <img src="./Imagenes/pastel_chocolate_azul.jpg" alt="chocolate azul" height="200px" width="250px">
+            <label for="pastelCho">Pastel de moras</label>
+            <label for="precio">Precio $250</label>
+            <input type="checkbox">
+        </div>
+                   
+    </div>
+    <br>
+    <br>
+    
+    <div class="imgBody">
+        <div class="img">
+            <img src="./Imagenes/pastel_frutos_rojo.jpg" alt="Pastel de frutos rojos" height="200px" width="250px">
+            <label for="pastelCho">Pastel de frutos rojos</label>
+            <label for="precio">Precio $250</label>
+            <input type="checkbox">
+        </div>
+
+        <div class="img">
+            <img src="./Imagenes/pastel_Flores.jpg" alt="Pastel de Flores" height="200px" width="250px">
+            <label for="pastelCho">Pastel de flores</label>
+            <label for="precio">Precio $250</label>
+            <input type="checkbox">
+        </div>
+
+        <div class="img">
+            <img src="./Imagenes/Pastel_osito.jpg" alt="Pastel de ositos" height="200px" width="250px">
+            <label for="pastelCho">Pastel de osito</label>
+            <label for="precio">Precio $250</label>
+            <input type="checkbox">
+        </div>        
+
+    </div>
+
+    <h2 class="sub">Introduce los datos de envio</h2>
+
+    <form action="" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="nambe" placeholder="Nombre">
+        <label for="dir">Dirección</label>
+        <input type="text" id="dire" placeholder="Dirección">
+        <label for="tlf">Teléfono</label>
+        <input type="tel" id="telef" placeholder="Teléfono">
+        <input type="submit" value="Enviar pedido">
+    </form>
+         
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>

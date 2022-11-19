@@ -1,0 +1,73 @@
+body{
+    background-color: #dfa762;
+}
+
+.head{
+    text-align: center;
+    background-color: #dfa762;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+   
+}
+
+.pedido{
+    align-items: center;
+    font-size: large;
+    color: black;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: blanchedalmond;    
+   
+}
+
+.item{
+    background-color: blanchedalmond;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.img{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.imgBody{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    text-align: center;
+}
+
+.descrip{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
